@@ -32,6 +32,6 @@ echo
 		sed -i 's/$plantillavar/$hostnamevar/g' /etc/hosts
 		sed -i 's/$plantillavar/$hostnamevar/g' /etc/hostname
 		hostnamectl set-hostname $hostnamevar
-		echo -e "${GREEN}Se configuro correctamente el hostname como $hostnamevar"
+		echo -e "${GREEN}Se configuro correctamente el hostname como $hostnamevar${RESET}"
 	fi
 
